@@ -100,15 +100,20 @@ static const char *browsers[][2] = {
   {"Netscape", "Others"},
   {"SeaMonkey", "Others"},
   {"UCBrowser", "Others"},
-  {"Wget", "Others"},
+  //{"Wget", "Others"},
   {"libfetch", "Others"},
   {"check_http", "Others"},
   {"Go-http-client", "Others"},
-  {"curl", "Others"},
+  //{"curl", "Others"},
   {"midori", "Others"},
   {"w3m", "Others"},
   {"MicroMessenger", "Others"},
   {"Apache", "Others"},
+
+  /* Opam */
+  {"Curl", "opam"},
+  {"Wget", "opam"},
+  {"opam", "opam"},
 
   /* Feed-reader-as-a-service */
   {"AppleNewsBot", "Feeds"},
